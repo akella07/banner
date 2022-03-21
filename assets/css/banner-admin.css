@@ -1,0 +1,17 @@
+textarea#banners_options_bcss {
+    min-height: 150px !important;
+}
+.select_page_single, .select_post_single {padding: 4px 4px 4px 10px !important; margin:10px 0 !important; display:block; border:2px solid grey;cursor:pointer;width:200px;}
+.tr-banners_options_adv-selector-id {display:none;}
+.banner-stable tr th {vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;}
+.banner-stable tr td { padding: 15px 10px;}
+
+tr.tr-banners_options_pid_pages, tr.tr-banners_options_pids {display: none;}
+.tr-banners_options_popup-display-secs, .tr-banners_options_popup-hide-days {display: none;}
+
+

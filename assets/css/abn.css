@@ -1,0 +1,93 @@
+.banner_modal {position: fixed;
+						z-index: 999;
+						-moz-transform: translateZ(88px);
+						-ms-transform: translateZ(88px);
+						-webkit-transform: translateZ(88px);
+						-o-transform: translateZ(88px);
+						transform: translateZ(88px);
+						left: 40px;
+						bottom: 30px;
+						
+						filter: alpha(opacity=0);
+						-moz-opacity: 0;
+						-khtml-opacity: 0;
+						opacity: 1;
+						-moz-transition: all 0.35s;
+						-o-transition: all 0.35s;
+						-webkit-transition: all 0.35s;
+						transition: all 0.35s;
+						-webkit-border-radius: 4px;
+						-moz-border-radius: 4px;
+						border-radius: 4px;
+						-webkit-box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+						-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
+						box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);}
+						.banner_modal a img {
+						display: block;
+						margin: 0;
+						width: auto;
+						height: 100px;
+						}
+						.banner_modal .close .line:first-child {
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(
+45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(
+45deg);
+}
+.banner_modal .close .line:last-child {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(
+-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(
+-45deg);
+}
+.banner_modal .close .line {
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    top: 50%;
+    margin-top: -1px;
+    background-color: #161517;
+    -moz-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.banner_modal .close {
+    position: absolute;
+    z-index: 20;
+    -moz-transform: translateZ(20px);
+    -ms-transform: translateZ(20px);
+    -webkit-transform: translateZ(20px);
+    -o-transform: translateZ(20px);
+    transform: translateZ(20px);
+    top: -10px;
+    right: -10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+}
+
+@media screen and (max-width: 480px) {
+    .banner_modal {
+        left:10px;
+        right: 10px;
+    }
+}
